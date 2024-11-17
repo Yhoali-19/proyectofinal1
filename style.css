@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin-left: 20px;
+    
+  }
+  header nav ul li a:hover {
+    color: #3361df;
+  }
+  header nav ul li a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .profile {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-header .profile-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-header h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .profile-header button {
+    margin-left: auto;
+    background-color: #3897f0;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .profile-header button:hover {
+    background-color: #007bff;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+    font-size: 16px;
+  }
+  
+  .post-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .post-gallery img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+  
+  .post-gallery img:hover {
+    transform: scale(1.05);
+  }
+  
+  

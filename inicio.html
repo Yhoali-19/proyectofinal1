@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MiRedSocial - Mensajes</title>
+  <link rel="stylesheet" href="inicio.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">MiRedSocial</div>
+    <nav>
+      <ul>
+        <li><a href="principal.html">Inicio</a></li>
+        <li><a href="inicio.html">Mensajes</a></li>
+        <li><a href="index.html">Perfil</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección de mensajes -->
+  <div class="messages-container">
+    <div class="chat-list">
+      <h2>Chats</h2>
+      <div class="chat">
+        <img src="usuario1.jpg" alt="Usuario 1" class="chat-img">
+        <div class="chat-info">
+          <h3>@usuario1</h3>
+          <p>¡Hola! ¿Cómo estás?</p>
+        </div>
+      </div>
+      <div class="chat">
+        <img src="usuario2.jpg" alt="Usuario 2" class="chat-img">
+        <div class="chat-info">
+          <h3>@usuario2</h3>
+          <p>¡Te vi en línea!</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ventana de conversación -->
+    <div class="chat-window">
+      <div class="chat-header">
+        <h2>@usuario1</h2>
+      </div>
+      <div class="chat-messages">
+        <div class="message">
+          <p><strong>@usuario1:</strong> ¡Hola! ¿Cómo estás?</p>
+        </div>
+        <div class="message">
+          <p><strong>@nombredeusuario:</strong> ¡Muy bien, gracias! ¿Y tú?</p>
+        </div>
+      </div>
+
+      <!-- Caja de texto para enviar mensaje -->
+      <div class="message-input">
+        <textarea id="messageInput" placeholder="Escribe un mensaje..."></textarea>
+        <button id="sendMessageBtn">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 MiRedSocial</p>
+  </footer>
+
+  <script src="inicio.js"></script>
+</body>
+
+</html>
